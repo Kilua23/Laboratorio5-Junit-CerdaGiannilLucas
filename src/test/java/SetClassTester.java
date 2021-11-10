@@ -31,7 +31,7 @@ public class SetClassTester {
         Set<Character> union_set = setClass.union(setA,setB);
         String string_set =String.valueOf(union_set);
         assertNotNull(string_set);
-        assertEquals("[A, B, C, D, E, F]",string_set);
+        assertEquals("[A, B, C, D, E]",string_set);
     }
     @Test
     @DisplayName("Interseccion de los conjuntos A y B")
